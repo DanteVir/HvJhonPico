@@ -17,7 +17,7 @@ createApp({
           id: 2,
           title: "Conjugate Instantly",
           desc:
-            "Se realizo un apoyo para un proyecto sobre cuestionarios en niveles de ingles con Crud y aceso con usuario y contraseña ",
+            "Se realizo un apoyo para un proyecto sobre cuestionarios en niveles de ingles con CRUD y acceso con usuario y contraseña ",
           photo:
             "./img/foto2.png"
         }
@@ -40,7 +40,7 @@ createApp({
         },
         onComplete: () => {
           this.playReverse();
-          if (this.currentNum >= 3) {
+          if (this.currentNum >= 2) {
             this.currentNum = 0;
           } else {
             this.currentNum++;
